@@ -1,5 +1,5 @@
 # enfold-plugin-template
-Enfold component plugin template
+Made using e component plugin template
 
 ## Usage
 
