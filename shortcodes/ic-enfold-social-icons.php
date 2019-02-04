@@ -14,6 +14,7 @@ if ( !class_exists( 'social_media_icons' ) )
 			function shortcode_insert_button()
 			{
 				$this->config['name']		= __('Social Media Icons', 'avia_framework' );
+				$this->config['icon']		= plugin_dir_url(__FILE__) . '../images/ic-template-icon.png';
 				$this->config['target']		= 'avia-target-insert';
 				$this->config['shortcode'] 	= 'social_media_icons';
 				$this->config['tooltip'] 	= __('Creates social media list of icons', 'avia_framework' );
